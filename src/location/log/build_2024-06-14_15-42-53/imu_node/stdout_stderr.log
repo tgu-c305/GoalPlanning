@@ -1,0 +1,255 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/nvidia/anaconda3/bin/python3 (found suitable version "3.11.7", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/nvidia/anaconda3/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found serial: 1.2.1 (/home/nvidia/GoalPlanning/src/location/install/serial/share/serial/cmake)
+-- Found imu_msgs: 0.0.0 (/home/nvidia/GoalPlanning/src/location/install/imu_msgs/share/imu_msgs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nvidia/GoalPlanning/src/location/src/imu_node/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/GoalPlanning/src/location/build/imu_node
+[35m[1mScanning dependencies of target imu_pub[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/imu_pub.dir/src/imu_pub.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/imu_pub.dir/src/TinyLog.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/imu_pub.dir/src/protocol_asensing.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/imu_pub.dir/src/common.cpp.o[0m
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kuint32_t ProtocolAsensing::CheckProtocol(const uint8_t*, uint32_t)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:140:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  140 |  for (i = 0; [01;35m[Ki < (len-1)[m[K; ++i)
+      |              [01;35m[K~~^~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:170:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  170 |      if([01;35m[KprotocolLen != (i + 2)[m[K )
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::AG041TypeZT(const uint8_t*)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:195:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KInfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  195 |  uint16_t [01;35m[KInfo[m[K = 0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::AG041TypeVG(const uint8_t*)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:265:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KInfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  265 |  uint16_t [01;35m[KInfo[m[K = 0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::AG041TypeSC(const uint8_t*)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:343:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KInfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  343 |  uint16_t [01;35m[KInfo[m[K = 0;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::clearCache()[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:413:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kstruct LooselyDataStruct[m[K’; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  413 |  memset(&_loosely_data, 0, sizeof(_loosely_data)[01;35m[K)[m[K;
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1[m[K:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/include/imu_node/protocol_asensing.h:13:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct LooselyDataStruct[m[K’ declared here
+   13 | struct [01;36m[KLooselyDataStruct[m[K {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:414:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kstruct GnssStruct[m[K’; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  414 |  memset(&_gnss_data, 0, sizeof(_gnss_data)[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1[m[K:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/include/imu_node/protocol_asensing.h:126:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct GnssStruct[m[K’ declared here
+  126 | struct [01;36m[KGnssStruct[m[K {
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kbool ProtocolAsensing::analysisData(const string&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:434:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  434 |     if ([01;35m[Kstart_index < _receive_data.size() - 2[m[K)
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:448:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kstd::map<unsigned char, int>::mapped_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  448 |     if (_receive_data.size() - start_index - 1 > _type_datalen[packet_type])
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:502:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  502 |       if ([01;35m[Kstart_index < _receive_data.size() - 1[m[K)
+      |           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:522:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  522 |     if ([01;35m[Kstart_index < _receive_data.size() - 2[m[K)
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:534:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kstd::map<unsigned char, int>::mapped_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  534 |     if (_receive_data.size() - start_index - 1 > _type_datalen[packet_type])
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:546:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  546 |    if ([01;35m[Kstart_index < _receive_data.size() - 1[m[K)
+      |        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:557:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  557 |  if (start_index > 0 && [01;35m[K_receive_data.size() > start_index[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:569:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  569 |  else if (start_index > 0 && [01;35m[K_receive_data.size() == start_index[m[K)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::sub03(const uint8_t*, int&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:624:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksub_data_len[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  624 |  int [01;35m[Ksub_data_len[m[K = _type_datalen[packet_type];
+      |      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kint ProtocolAsensing::sub04(const uint8_t*, int&, int)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:893:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kag041_type_get[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  893 |   uint8_t [01;35m[Kag041_type_get[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:889:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kag041_type[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  889 |  static uint8_t [01;35m[Kag041_type[m[K = 0, ag041_type_tmp = 0;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:889:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kag041_type_tmp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  889 |  static uint8_t ag041_type = 0, [01;35m[Kag041_type_tmp[m[K = 0;
+      |                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:890:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kag_type_cnt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  890 |  static uint8_t [01;35m[Kag_type_cnt[m[K = 0;
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::sub05(const uint8_t*, int&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1028:36:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around arithmetic in operand of ‘[01m[K^[m[K’ [[01;35m[K-Wparentheses[m[K]
+ 1028 |   float abs_mag_2d = sqrt(magx ^ [01;35m[K2 + magy[m[K ^ 2);
+      |                                  [01;35m[K~~^~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:966:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kroll[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  966 |   float [01;35m[Kroll[m[K, pitch, yaw;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:966:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpitch[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  966 |   float roll, [01;35m[Kpitch[m[K, yaw;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:966:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kyaw[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  966 |   float roll, pitch, [01;35m[Kyaw[m[K;
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:967:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgx[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  967 |   float [01;35m[Kgx[m[K, gy, gz;
+      |         [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:967:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgy[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  967 |   float gx, [01;35m[Kgy[m[K, gz;
+      |             [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:967:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgz[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  967 |   float gx, gy, [01;35m[Kgz[m[K;
+      |                 [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:968:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  968 |   float [01;35m[Kax[m[K, ay, az;
+      |         [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:968:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kay[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  968 |   float ax, [01;35m[Kay[m[K, az;
+      |             [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:968:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kaz[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  968 |   float ax, ay, [01;35m[Kaz[m[K;
+      |                 [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:971:31:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmagz[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  971 |   int16_t magx = 0, magy = 0, [01;35m[Kmagz[m[K = 0;
+      |                               [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:972:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdebug0[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  972 |   uint16_t [01;35m[Kdebug0[m[K, debug1 = 0, info = 0;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:972:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdebug1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  972 |   uint16_t debug0, [01;35m[Kdebug1[m[K = 0, info = 0;
+      |                    [01;35m[K^~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:973:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KTemperature[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  973 |   float [01;35m[KTemperature[m[K;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:974:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KTimeStamp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  974 |   float [01;35m[KTimeStamp[m[K;
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1028:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kabs_mag_2d[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1028 |   float [01;35m[Kabs_mag_2d[m[K = sqrt(magx ^ 2 + magy ^ 2);
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::sub06(const uint8_t*, int&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1098:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgx[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1098 |   uint16_t [01;35m[Kgx[m[K, gy, gz;
+      |            [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1098:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgy[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1098 |   uint16_t gx, [01;35m[Kgy[m[K, gz;
+      |                [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1098:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgz[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1098 |   uint16_t gx, gy, [01;35m[Kgz[m[K;
+      |                    [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1099:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1099 |   uint16_t [01;35m[Kax[m[K, ay, az;
+      |            [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1099:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kay[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1099 |   uint16_t ax, [01;35m[Kay[m[K, az;
+      |                [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1099:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kaz[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1099 |   uint16_t ax, ay, [01;35m[Kaz[m[K;
+      |                    [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1100:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktemp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1100 |   uint16_t [01;35m[Ktemp[m[K[3];
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::sub0B(const uint8_t*, int&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1357:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1357 |    int [01;35m[Km[m[K = 0;
+      |        [01;35m[K^[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kstd::string LooselyDataStruct::toString(const string&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:2129:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksplit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 2129 | std::string LooselyDataStruct::toString([01;35m[Kconst std::string& split[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kstd::string GnssStruct::toString(const string&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:2308:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksplit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 2308 | std::string GnssStruct::toString([01;35m[Kconst std::string& split[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K In member function ‘[01m[Kvoid ProtocolAsensing::subE5(const uint8_t*, int&)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1957:4:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 1957 |    [01;35m[Kif[m[K (_loosely_data.stater == 0) {
+      |    [01;35m[K^~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:1969:3:[m[K [01;36m[Knote: [m[Khere
+ 1969 |   [01;36m[Kcase[m[K 5:
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:[m[K At global scope:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:890:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kag_type_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  890 |  static uint8_t [01;35m[Kag_type_cnt[m[K = 0;
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:889:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kag041_type_tmp[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  889 |  static uint8_t ag041_type = 0, [01;35m[Kag041_type_tmp[m[K = 0;
+      |                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/imu_node/src/protocol_asensing.cpp:889:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kag041_type[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  889 |  static uint8_t [01;35m[Kag041_type[m[K = 0, ag041_type_tmp = 0;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable imu_pub[0m
+[100%] Built target imu_pub
+-- Install configuration: ""
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/launch
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/launch/__pycache__
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/launch/__pycache__/imu_node.launch.cpython-310.pyc
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/launch/imu_node.launch.py
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/lib/imu_node/imu_pub
+-- Set runtime path of "/home/nvidia/GoalPlanning/src/location/install/imu_node/lib/imu_node/imu_pub" to ""
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/ament_index/resource_index/package_run_dependencies/imu_node
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/ament_index/resource_index/parent_prefix_path/imu_node
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/environment/path.sh
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/environment/path.dsv
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/local_setup.bash
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/local_setup.sh
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/local_setup.zsh
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/local_setup.dsv
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/package.dsv
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/ament_index/resource_index/packages/imu_node
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/cmake/imu_nodeConfig.cmake
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/cmake/imu_nodeConfig-version.cmake
+-- Installing: /home/nvidia/GoalPlanning/src/location/install/imu_node/share/imu_node/package.xml

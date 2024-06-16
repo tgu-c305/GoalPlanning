@@ -1,0 +1,85 @@
+[0.034s] Invoking command in '/home/nvidia/GoalPlanning/src/location/build/location': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/nvidia/GoalPlanning/src/location/src/location -DCMAKE_INSTALL_PREFIX=/home/nvidia/GoalPlanning/src/location/install/location
+[0.144s] -- The C compiler identification is GNU 9.4.0
+[0.247s] -- The CXX compiler identification is GNU 9.4.0
+[0.256s] -- Check for working C compiler: /usr/bin/cc
+[0.395s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.397s] -- Detecting C compiler ABI info
+[0.551s] -- Detecting C compiler ABI info - done
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.756s] -- Detecting CXX compiler ABI info
+[0.921s] -- Detecting CXX compiler ABI info - done
+[0.942s] -- Detecting CXX compile features
+[0.944s] -- Detecting CXX compile features - done
+[0.951s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.012s] -- Found PythonInterp: /home/nvidia/anaconda3/bin/python3 (found suitable version "3.11.7", minimum required is "3") 
+[1.012s] -- Using PYTHON_EXECUTABLE: /home/nvidia/anaconda3/bin/python3
+[1.552s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.682s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.917s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.987s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.292s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.298s] -- Looking for pthread.h
+[2.454s] -- Looking for pthread.h - found
+[2.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.609s] -- Looking for pthread_create in pthreads
+[2.740s] -- Looking for pthread_create in pthreads - not found
+[2.740s] -- Looking for pthread_create in pthread
+[2.899s] -- Looking for pthread_create in pthread - found
+[2.901s] -- Found Threads: TRUE  
+[3.207s] -- Found imu_msgs: 0.0.0 (/home/nvidia/GoalPlanning/src/location/install/imu_msgs/share/imu_msgs/cmake)
+[3.281s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.559s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.562s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.562s] -- Configured cppcheck include dirs: /home/nvidia/GoalPlanning/src/location/src/location/include
+[3.562s] -- Configured cppcheck exclude dirs and/or files: 
+[3.565s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.565s] -- Configured cpplint exclude dirs and/or files: 
+[3.566s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.567s] -- Added test 'lint_cmake' to check CMake code style
+[3.569s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.571s] -- Added test 'uncrustify' to check C / C++ code style
+[3.571s] -- Configured uncrustify additional arguments: 
+[3.572s] -- Added test 'xmllint' to check XML markup files
+[3.580s] -- Configuring done
+[3.596s] -- Generating done
+[3.599s] -- Build files have been written to: /home/nvidia/GoalPlanning/src/location/build/location
+[3.618s] Invoked command in '/home/nvidia/GoalPlanning/src/location/build/location' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/nvidia/GoalPlanning/src/location/src/location -DCMAKE_INSTALL_PREFIX=/home/nvidia/GoalPlanning/src/location/install/location
+[3.623s] Invoking command in '/home/nvidia/GoalPlanning/src/location/build/location': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/nvidia/GoalPlanning/src/location/build/location -- -j8 -l8
+[3.717s] [35m[1mScanning dependencies of target location_node[0m
+[3.792s] [ 50%] [32mBuilding CXX object CMakeFiles/location_node.dir/src/location_node.cpp.o[0m
+[6.916s] [01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:[m[K In member function ‘[01m[Kvoid location::imu_topic_callback(imu_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.916s] [01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:135:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.916s]   135 |     void imu_topic_callback([01;35m[Kconst imu_msgs::msg::Imu::SharedPtr msg[m[K) {
+[6.917s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.202s] [100%] [32m[1mLinking CXX executable location_node[0m
+[18.774s] [100%] Built target location_node
+[18.800s] Invoked command in '/home/nvidia/GoalPlanning/src/location/build/location' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/nvidia/GoalPlanning/src/location/build/location -- -j8 -l8
+[18.856s] Invoking command in '/home/nvidia/GoalPlanning/src/location/build/location': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/nvidia/GoalPlanning/src/location/build/location
+[18.877s] -- Install configuration: ""
+[18.877s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/launch
+[18.877s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/launch/location.launch.py
+[18.878s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/lib/location/location_node
+[18.883s] -- Set runtime path of "/home/nvidia/GoalPlanning/src/location/install/location/lib/location/location_node" to ""
+[18.883s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/package_run_dependencies/location
+[18.884s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/parent_prefix_path/location
+[18.884s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/ament_prefix_path.sh
+[18.884s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/ament_prefix_path.dsv
+[18.885s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/path.sh
+[18.885s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/path.dsv
+[18.885s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.bash
+[18.886s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.sh
+[18.886s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.zsh
+[18.886s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.dsv
+[18.886s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/package.dsv
+[18.887s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/packages/location
+[18.887s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/cmake/locationConfig.cmake
+[18.887s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/cmake/locationConfig-version.cmake
+[18.888s] -- Installing: /home/nvidia/GoalPlanning/src/location/install/location/share/location/package.xml
+[18.893s] Invoked command in '/home/nvidia/GoalPlanning/src/location/build/location' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/src/location/install/serial:/home/nvidia/GoalPlanning/src/location/install/location:/home/nvidia/GoalPlanning/src/location/install/imu_node:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/src/location/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/home/nvidia/GoalPlanning/src/location/install/serial/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/nvidia/GoalPlanning/src/location/build/location

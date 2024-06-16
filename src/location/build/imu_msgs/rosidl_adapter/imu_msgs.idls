@@ -1,0 +1,6 @@
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/ASENSING.idl
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/Imu.idl
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/Gnss.idl
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/AG041.idl
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/AG051.idl
+/home/nvidia/GoalPlanning/src/location/build/imu_msgs/rosidl_adapter/imu_msgs:msg/AG072.idl

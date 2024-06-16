@@ -1,0 +1,17 @@
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/launch/location.launch.py
+/home/nvidia/GoalPlanning/src/location/install/location/lib/location/location_node
+/home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/package_run_dependencies/location
+/home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/parent_prefix_path/location
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/ament_prefix_path.sh
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/ament_prefix_path.dsv
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/path.sh
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/environment/path.dsv
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.bash
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.sh
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.zsh
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/local_setup.dsv
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/package.dsv
+/home/nvidia/GoalPlanning/src/location/install/location/share/ament_index/resource_index/packages/location
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/cmake/locationConfig.cmake
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/cmake/locationConfig-version.cmake
+/home/nvidia/GoalPlanning/src/location/install/location/share/location/package.xml
