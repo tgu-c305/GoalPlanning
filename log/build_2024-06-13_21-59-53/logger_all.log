@@ -1,0 +1,836 @@
+[0.474s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.474s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7dcc15e0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7dcc15e0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7dcc1f70>)
+[0.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.919s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/GoalPlanning'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_msg) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_msg' with type 'ros.ament_cmake' and name 'car_msg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_car' with type 'ros.ament_python' and name 'cmd_car'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_car_cpp) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_car_cpp' with type 'ros.ament_cmake' and name 'cmd_car_cpp'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'python'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extensions ['python_setup_py']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'cmake'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extensions ['python_setup_py']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_msg) by extension 'ros'
+[0.964s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_sdk_foxy/src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_sdk_foxy/src/rslidar_sdk) by extension 'ros'
+[0.966s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_sdk_foxy/src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'ros'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['cmake', 'python']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'cmake'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'python'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extensions ['python_setup_py']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location) by extension 'python_setup_py'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/build) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/build) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/build) ignored
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'ros'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['cmake', 'python']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'cmake'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'python'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extensions ['python_setup_py']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'ignore'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['colcon_pkg']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'colcon_pkg'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['colcon_meta']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'colcon_meta'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'ros'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['cmake', 'python']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'cmake'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'python'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extensions ['python_setup_py']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/include/location) by extension 'python_setup_py'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/install) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/install) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/install) ignored
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/log) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/log) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/log) ignored
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'ros'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extensions ['colcon_pkg']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extension 'colcon_pkg'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_msgs) by extension 'ros'
+[0.977s] DEBUG:colcon.colcon_core.package_identification:Package 'src/location/src/imu_msgs' with type 'ros.ament_cmake' and name 'imu_msgs'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/imu_node) by extension 'ros'
+[0.979s] DEBUG:colcon.colcon_core.package_identification:Package 'src/location/src/imu_node' with type 'ros.ament_cmake' and name 'imu_node'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/location) by extension 'ros'
+[0.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/location/src/location' with type 'ros.ament_cmake' and name 'location'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/location/src/serial) by extension 'ros'
+[0.984s] DEBUG:colcon.colcon_core.package_identification:Package 'src/location/src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planning' with type 'ros.ament_python' and name 'planning'
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.036s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/nvidia/GoalPlanning/install
+[1.040s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/foxy
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_target' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'car_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.198s] DEBUG:colcon.colcon_core.verb:Building package 'car_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/car_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/car_msg', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/car_msg', 'symlink_install': False, 'test_result_base': None}
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_target' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_clean_cache' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_clean_first' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'cmake_force_configure' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'ament_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'catkin_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'cmd_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.199s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/cmd_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/cmd_car', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/cmd_car', 'symlink_install': False, 'test_result_base': None}
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_target' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'cmd_car_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_car_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/cmd_car_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/cmd_car_cpp', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/cmd_car_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'imu_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'imu_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/imu_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/imu_msgs', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/location/src/imu_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_cache' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_first' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_force_configure' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'ament_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.203s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/planning', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/planning', 'symlink_install': False, 'test_result_base': None}
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/rslidar_msg', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_msg', 'symlink_install': False, 'test_result_base': None}
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/serial', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/location/src/serial', 'symlink_install': False, 'test_result_base': None}
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_target' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.206s] Level 5:colcon.colcon_core.verb:set package 'imu_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.206s] DEBUG:colcon.colcon_core.verb:Building package 'imu_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/imu_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/imu_node', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/location/src/imu_node', 'symlink_install': False, 'test_result_base': None}
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_args' from command line to 'None'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_target' from command line to 'None'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_clean_cache' from command line to 'False'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_clean_first' from command line to 'False'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'cmake_force_configure' from command line to 'False'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'ament_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'catkin_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'location' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.208s] DEBUG:colcon.colcon_core.verb:Building package 'location' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/location', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/location', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/location/src/location', 'symlink_install': False, 'test_result_base': None}
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.209s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/GoalPlanning/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/GoalPlanning/install/rslidar_sdk', 'merge_install': False, 'path': '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.209s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.211s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/location/src/imu_msgs' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/location/src/imu_msgs'
+[1.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_msg' with build type 'ament_cmake'
+[1.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_msg'
+[1.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/location/src/serial' with build type 'ament_cmake'
+[1.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/location/src/serial'
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/car_msg' with build type 'ament_cmake'
+[1.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/car_msg'
+[1.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/GoalPlanning/src/cmd_car' with build type 'ament_python'
+[1.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_car', 'ament_prefix_path')
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/ament_prefix_path.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/ament_prefix_path.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/ament_prefix_path.sh'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/cmd_car_cpp' with build type 'ament_cmake'
+[1.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/cmd_car_cpp'
+[1.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/GoalPlanning/src/planning' with build type 'ament_python'
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'ament_prefix_path')
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/ament_prefix_path.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/ament_prefix_path.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/ament_prefix_path.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/imu_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/imu_msgs -- -j8 -l8
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_msg -- -j8 -l8
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/serial -- -j8 -l8
+[1.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/car_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/car_msg -- -j8 -l8
+[2.026s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/GoalPlanning/src/cmd_car'
+[2.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/cmd_car_cpp -- -j8 -l8
+[2.658s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/GoalPlanning/src/planning'
+[2.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/imu_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/imu_msgs -- -j8 -l8
+[2.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_msg -- -j8 -l8
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/serial -- -j8 -l8
+[2.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/car_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/car_msg -- -j8 -l8
+[2.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/cmd_car_cpp -- -j8 -l8
+[2.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/serial
+[2.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/cmd_car_cpp
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_msg
+[2.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[2.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/serial
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial' for CMake module files
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial' for CMake config files
+[2.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib'
+[2.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/bin'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib/pkgconfig/serial.pc'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib/python3.8/site-packages'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/bin'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.ps1'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/package.dsv'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.sh'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.bash'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.zsh'
+[2.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/serial/share/colcon-core/packages/serial)
+[2.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/car_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/car_msg
+[2.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_car_cpp)
+[2.925s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp' for CMake module files
+[2.926s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp' for CMake config files
+[2.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_car_cpp', 'cmake_prefix_path')
+[2.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.ps1'
+[2.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/cmd_car_cpp
+[2.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.dsv'
+[2.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.sh'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/bin'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/lib/pkgconfig/cmd_car_cpp.pc'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/lib/python3.8/site-packages'
+[2.936s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/bin'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.ps1'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.dsv'
+[2.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.sh'
+[2.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.bash'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.zsh'
+[2.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/colcon-core/packages/cmd_car_cpp)
+[2.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg' for CMake module files
+[2.986s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg' for CMake config files
+[2.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[2.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[2.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_msg
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib'
+[2.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[2.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[2.995s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/bin'
+[2.995s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages'
+[2.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'pythonpath')
+[2.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.ps1'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.dsv'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.sh'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/bin'
+[3.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[3.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.sh'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.bash'
+[3.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[3.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[3.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial' for CMake module files
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial' for CMake config files
+[3.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.023s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib'
+[3.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/bin'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib/pkgconfig/serial.pc'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/lib/python3.8/site-packages'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/serial/bin'
+[3.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/serial/share/serial/package.dsv'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.sh'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.bash'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/serial/share/serial/package.zsh'
+[3.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/serial/share/colcon-core/packages/serial)
+[3.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_car_cpp)
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp' for CMake module files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp' for CMake config files
+[3.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_car_cpp', 'cmake_prefix_path')
+[3.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/hook/cmake_prefix_path.sh'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/bin'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/lib/pkgconfig/cmd_car_cpp.pc'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/lib/python3.8/site-packages'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car_cpp/bin'
+[3.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.ps1'
+[3.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.dsv'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.sh'
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.bash'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.zsh'
+[3.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/cmd_car_cpp/share/colcon-core/packages/cmd_car_cpp)
+[3.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_msg)
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg' for CMake module files
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/car_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/car_msg
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg' for CMake config files
+[3.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'cmake_prefix_path')
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.sh'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib'
+[3.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'ld_library_path_lib')
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.dsv'
+[3.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.sh'
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/bin'
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib/pkgconfig/car_msg.pc'
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages'
+[3.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'pythonpath')
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.sh'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/bin'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.ps1'
+[3.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.dsv'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.sh'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.bash'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.zsh'
+[3.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/car_msg/share/colcon-core/packages/car_msg)
+[3.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/imu_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/imu_msgs
+[3.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg' for CMake module files
+[3.130s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg' for CMake config files
+[3.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib'
+[3.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[3.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[3.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[3.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/bin'
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages'
+[3.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'pythonpath')
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.ps1'
+[3.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/hook/pythonpath.sh'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_msg/bin'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[3.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.sh'
+[3.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.bash'
+[3.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[3.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[3.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_sdk' with build type 'ament_cmake'
+[3.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/lidar_sdk_foxy/src/rslidar_sdk'
+[3.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_sdk -- -j8 -l8
+[3.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_msgs)
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs' for CMake module files
+[3.240s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs' for CMake config files
+[3.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/imu_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/imu_msgs
+[3.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'cmake_prefix_path')
+[3.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.ps1'
+[3.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.dsv'
+[3.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.sh'
+[3.247s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib'
+[3.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'ld_library_path_lib')
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.ps1'
+[3.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.dsv'
+[3.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.sh'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/bin'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib/pkgconfig/imu_msgs.pc'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages'
+[3.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'pythonpath')
+[3.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.ps1'
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.dsv'
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.sh'
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/bin'
+[3.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.dsv'
+[3.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.sh'
+[3.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.bash'
+[3.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.zsh'
+[3.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/imu_msgs/share/colcon-core/packages/imu_msgs)
+[3.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_msg)
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg' for CMake module files
+[3.274s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg' for CMake config files
+[3.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'cmake_prefix_path')
+[3.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.ps1'
+[3.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.dsv'
+[3.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/cmake_prefix_path.sh'
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib'
+[3.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'ld_library_path_lib')
+[3.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.ps1'
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.dsv'
+[3.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/ld_library_path_lib.sh'
+[3.284s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/bin'
+[3.284s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib/pkgconfig/car_msg.pc'
+[3.285s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages'
+[3.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_msg', 'pythonpath')
+[3.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.ps1'
+[3.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.dsv'
+[3.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/hook/pythonpath.sh'
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/car_msg/bin'
+[3.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.ps1'
+[3.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.dsv'
+[3.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.sh'
+[3.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.bash'
+[3.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.zsh'
+[3.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/car_msg/share/colcon-core/packages/car_msg)
+[3.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_sdk -- -j8 -l8
+[3.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_sdk
+[3.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk' for CMake module files
+[3.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_sdk
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk' for CMake config files
+[3.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[3.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib'
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/bin'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib/python3.8/site-packages'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/bin'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[3.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[3.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[3.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[3.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[3.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_msgs)
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs' for CMake module files
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs' for CMake config files
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'cmake_prefix_path')
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/cmake_prefix_path.sh'
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib'
+[3.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'ld_library_path_lib')
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.dsv'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/ld_library_path_lib.sh'
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/bin'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib/pkgconfig/imu_msgs.pc'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages'
+[3.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_msgs', 'pythonpath')
+[3.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.ps1'
+[3.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.dsv'
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/hook/pythonpath.sh'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_msgs/bin'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.dsv'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.sh'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.bash'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_msgs/share/imu_msgs/package.zsh'
+[3.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/imu_msgs/share/colcon-core/packages/imu_msgs)
+[3.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/location/src/imu_node' with build type 'ament_cmake'
+[3.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/location/src/imu_node'
+[3.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.606s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/GoalPlanning/src/location/src/location' with build type 'ament_cmake'
+[3.608s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/GoalPlanning/src/location/src/location'
+[3.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[3.631s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk' for CMake module files
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk' for CMake config files
+[3.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[3.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[3.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/bin'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/lib/python3.8/site-packages'
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/rslidar_sdk/bin'
+[3.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[3.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[3.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[3.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[3.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[3.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[3.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/imu_node': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/imu_node -- -j8 -l8
+[3.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/location': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/location -- -j8 -l8
+[3.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/src/cmd_car': PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/src/planning': PYTHONPATH=/home/nvidia/GoalPlanning/build/planning/prefix_override:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/planning build --build-base /home/nvidia/GoalPlanning/build/planning/build install --record /home/nvidia/GoalPlanning/build/planning/install.log --install-scripts $base/lib/planning --single-version-externally-managed install_data
+[3.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/imu_node' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/imu_node -- -j8 -l8
+[3.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/location' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/location -- -j8 -l8
+[3.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/imu_node': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/imu_node
+[3.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/GoalPlanning/build/location': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/location
+[3.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_node)
+[3.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/imu_node' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/imu_node
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node' for CMake module files
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node' for CMake config files
+[3.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_node', 'cmake_prefix_path')
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.sh'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/bin'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib/pkgconfig/imu_node.pc'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib/python3.8/site-packages'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/bin'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.ps1'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.dsv'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.sh'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.bash'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.zsh'
+[3.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/imu_node/share/colcon-core/packages/imu_node)
+[3.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(location)
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location' for CMake module files
+[3.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/build/location' returned '0': CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/home/nvidia/GoalPlanning/install/serial:/home/nvidia/GoalPlanning/install/rslidar_sdk:/home/nvidia/GoalPlanning/install/rslidar_msg:/home/nvidia/GoalPlanning/install/location:/home/nvidia/GoalPlanning/install/imu_node:/home/nvidia/GoalPlanning/install/cmd_car_cpp:/home/nvidia/GoalPlanning/install/car_msg:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/home/nvidia/GoalPlanning/install/serial/lib:/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/home/nvidia/GoalPlanning/install/car_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.11/site-packages:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:/home/nvidia/GoalPlanning/install/car_msg/lib/python3.11/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/location
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location' for CMake config files
+[4.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('location', 'cmake_prefix_path')
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.ps1'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.dsv'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.sh'
+[4.005s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib'
+[4.005s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/bin'
+[4.005s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib/pkgconfig/location.pc'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib/python3.8/site-packages'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/bin'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.ps1'
+[4.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/location/share/location/package.dsv'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.sh'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.bash'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.zsh'
+[4.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/location/share/colcon-core/packages/location)
+[4.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_node)
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node' for CMake module files
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node' for CMake config files
+[4.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_node', 'cmake_prefix_path')
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.ps1'
+[4.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/hook/cmake_prefix_path.sh'
+[4.066s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib'
+[4.067s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/bin'
+[4.067s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib/pkgconfig/imu_node.pc'
+[4.067s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/lib/python3.8/site-packages'
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/imu_node/bin'
+[4.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.ps1'
+[4.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.dsv'
+[4.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.sh'
+[4.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.bash'
+[4.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/imu_node/share/imu_node/package.zsh'
+[4.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/imu_node/share/colcon-core/packages/imu_node)
+[4.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(location)
+[4.077s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location' for CMake module files
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location' for CMake config files
+[4.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('location', 'cmake_prefix_path')
+[4.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.ps1'
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/location/share/location/hook/cmake_prefix_path.sh'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/bin'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib/pkgconfig/location.pc'
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/lib/python3.8/site-packages'
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/location/bin'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.ps1'
+[4.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/location/share/location/package.dsv'
+[4.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.sh'
+[4.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.bash'
+[4.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/location/share/location/package.zsh'
+[4.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/location/share/colcon-core/packages/location)
+[4.400s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car' for CMake module files
+[4.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/src/cmd_car' returned '0': PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data
+[4.402s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car' for CMake config files
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car/lib'
+[4.404s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car/bin'
+[4.404s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car/lib/pkgconfig/cmd_car.pc'
+[4.404s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages'
+[4.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_car', 'pythonpath')
+[4.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/pythonpath.ps1'
+[4.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/pythonpath.dsv'
+[4.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/hook/pythonpath.sh'
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/cmd_car/bin'
+[4.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_car)
+[4.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/package.ps1'
+[4.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/package.dsv'
+[4.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/package.sh'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/package.bash'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/cmd_car/share/cmd_car/package.zsh'
+[4.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/cmd_car/share/colcon-core/packages/cmd_car)
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning' for CMake module files
+[4.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/GoalPlanning/src/planning' returned '0': PYTHONPATH=/home/nvidia/GoalPlanning/build/planning/prefix_override:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/planning build --build-base /home/nvidia/GoalPlanning/build/planning/build install --record /home/nvidia/GoalPlanning/build/planning/install.log --install-scripts $base/lib/planning --single-version-externally-managed install_data
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning' for CMake config files
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning/lib'
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning/bin'
+[4.432s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning/lib/pkgconfig/planning.pc'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages'
+[4.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'pythonpath')
+[4.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/pythonpath.ps1'
+[4.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/pythonpath.dsv'
+[4.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/GoalPlanning/install/planning/share/planning/hook/pythonpath.sh'
+[4.439s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/GoalPlanning/install/planning/bin'
+[4.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
+[4.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/planning/share/planning/package.ps1'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/GoalPlanning/install/planning/share/planning/package.dsv'
+[4.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/planning/share/planning/package.sh'
+[4.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/planning/share/planning/package.bash'
+[4.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/GoalPlanning/install/planning/share/planning/package.zsh'
+[4.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/GoalPlanning/install/planning/share/colcon-core/packages/planning)
+[4.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.449s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.468s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.491s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.492s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/GoalPlanning/install/local_setup.ps1'
+[4.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/GoalPlanning/install/_local_setup_util_ps1.py'
+[4.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/GoalPlanning/install/setup.ps1'
+[4.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/GoalPlanning/install/local_setup.sh'
+[4.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/GoalPlanning/install/_local_setup_util_sh.py'
+[4.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/GoalPlanning/install/setup.sh'
+[4.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/GoalPlanning/install/local_setup.bash'
+[4.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/GoalPlanning/install/setup.bash'
+[4.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/GoalPlanning/install/local_setup.zsh'
+[4.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/GoalPlanning/install/setup.zsh'

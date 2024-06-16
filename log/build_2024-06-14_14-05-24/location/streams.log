@@ -1,0 +1,32 @@
+[0.059s] Invoking command in '/home/nvidia/GoalPlanning/build/location': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/location -- -j8 -l8
+[0.150s] [35m[1mScanning dependencies of target location_node[0m
+[0.205s] [ 50%] [32mBuilding CXX object CMakeFiles/location_node.dir/src/location_node.cpp.o[0m
+[3.172s] [01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:[m[K In member function ‘[01m[Kvoid location::imu_topic_callback(imu_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.172s] [01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:135:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.172s]   135 |     void imu_topic_callback([01;35m[Kconst imu_msgs::msg::Imu::SharedPtr msg[m[K) {
+[3.172s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[14.018s] [100%] [32m[1mLinking CXX executable location_node[0m
+[14.575s] [100%] Built target location_node
+[14.600s] Invoked command in '/home/nvidia/GoalPlanning/build/location' returned '0': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/location -- -j8 -l8
+[14.655s] Invoking command in '/home/nvidia/GoalPlanning/build/location': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/location
+[14.674s] -- Install configuration: ""
+[14.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/launch
+[14.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/launch/location.launch.py
+[14.675s] -- Installing: /home/nvidia/GoalPlanning/install/location/lib/location/location_node
+[14.681s] -- Set runtime path of "/home/nvidia/GoalPlanning/install/location/lib/location/location_node" to ""
+[14.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/ament_index/resource_index/package_run_dependencies/location
+[14.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/ament_index/resource_index/parent_prefix_path/location
+[14.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/environment/ament_prefix_path.sh
+[14.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/environment/ament_prefix_path.dsv
+[14.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/environment/path.sh
+[14.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/environment/path.dsv
+[14.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/local_setup.bash
+[14.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/local_setup.sh
+[14.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/local_setup.zsh
+[14.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/local_setup.dsv
+[14.683s] -- Installing: /home/nvidia/GoalPlanning/install/location/share/location/package.dsv
+[14.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/ament_index/resource_index/packages/location
+[14.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/cmake/locationConfig.cmake
+[14.684s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/cmake/locationConfig-version.cmake
+[14.684s] -- Up-to-date: /home/nvidia/GoalPlanning/install/location/share/location/package.xml
+[14.688s] Invoked command in '/home/nvidia/GoalPlanning/build/location' returned '0': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/imu_msgs:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/imu_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/location

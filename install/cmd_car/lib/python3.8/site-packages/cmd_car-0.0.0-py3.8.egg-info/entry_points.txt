@@ -1,0 +1,4 @@
+[console_scripts]
+car_cmd = cmd_car.car_cmd:main
+car_info = cmd_car.car_info:main
+

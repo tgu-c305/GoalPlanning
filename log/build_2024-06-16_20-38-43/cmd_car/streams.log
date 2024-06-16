@@ -1,0 +1,25 @@
+[2.428s] Invoking command in '/home/nvidia/GoalPlanning/src/cmd_car': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data
+[3.013s] running egg_info
+[3.015s] writing ../../build/cmd_car/cmd_car.egg-info/PKG-INFO
+[3.015s] writing dependency_links to ../../build/cmd_car/cmd_car.egg-info/dependency_links.txt
+[3.016s] writing entry points to ../../build/cmd_car/cmd_car.egg-info/entry_points.txt
+[3.016s] writing requirements to ../../build/cmd_car/cmd_car.egg-info/requires.txt
+[3.016s] writing top-level names to ../../build/cmd_car/cmd_car.egg-info/top_level.txt
+[3.023s] reading manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+[3.024s] writing manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+[3.025s] running build
+[3.025s] running build_py
+[3.025s] copying cmd_car/car_cmd.py -> /home/nvidia/GoalPlanning/build/cmd_car/build/lib/cmd_car
+[3.026s] running install
+[3.027s] running install_lib
+[3.029s] copying /home/nvidia/GoalPlanning/build/cmd_car/build/lib/cmd_car/car_cmd.py -> /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car
+[3.031s] byte-compiling /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car/car_cmd.py to car_cmd.cpython-38.pyc
+[3.032s] running install_data
+[3.033s] running install_egg_info
+[3.037s] removing '/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info' (and everything under it)
+[3.038s] Copying ../../build/cmd_car/cmd_car.egg-info to /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info
+[3.040s] running install_scripts
+[3.079s] Installing car_cmd script to /home/nvidia/GoalPlanning/install/cmd_car/lib/cmd_car
+[3.079s] Installing car_info script to /home/nvidia/GoalPlanning/install/cmd_car/lib/cmd_car
+[3.080s] writing list of installed files to '/home/nvidia/GoalPlanning/build/cmd_car/install.log'
+[3.161s] Invoked command in '/home/nvidia/GoalPlanning/src/cmd_car' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data

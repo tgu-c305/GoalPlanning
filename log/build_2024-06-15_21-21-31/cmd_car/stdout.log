@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/cmd_car/cmd_car.egg-info/PKG-INFO
+writing dependency_links to ../../build/cmd_car/cmd_car.egg-info/dependency_links.txt
+writing entry points to ../../build/cmd_car/cmd_car.egg-info/entry_points.txt
+writing requirements to ../../build/cmd_car/cmd_car.egg-info/requires.txt
+writing top-level names to ../../build/cmd_car/cmd_car.egg-info/top_level.txt
+reading manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+writing manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cmd_car/car_info.py -> /home/nvidia/GoalPlanning/build/cmd_car/build/lib/cmd_car
+running install
+running install_lib
+copying /home/nvidia/GoalPlanning/build/cmd_car/build/lib/cmd_car/car_info.py -> /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car
+byte-compiling /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car/car_info.py to car_info.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/cmd_car/cmd_car.egg-info to /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info
+running install_scripts
+Installing car_info script to /home/nvidia/GoalPlanning/install/cmd_car/lib/cmd_car
+writing list of installed files to '/home/nvidia/GoalPlanning/build/cmd_car/install.log'

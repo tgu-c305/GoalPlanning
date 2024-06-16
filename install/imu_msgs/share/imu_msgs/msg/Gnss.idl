@@ -1,0 +1,101 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from imu_msgs/msg/Gnss.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module imu_msgs {
+  module msg {
+    struct Gnss {
+      std_msgs::msg::Header header;
+
+      double gnss_lon;
+
+      double gnss_lat;
+
+      @verbatim (language="comment", text=
+        " gnss_高度")
+      double gnss_alt;
+
+      @verbatim (language="comment", text=
+        " gnss_经度精度")
+      float gnss_lon_sigma;
+
+      @verbatim (language="comment", text=
+        " gnss_纬度精度")
+      float gnss_lat_sigma;
+
+      @verbatim (language="comment", text=
+        " gnss_高度精度")
+      float gnss_alt_sigma;
+
+      @verbatim (language="comment", text=
+        " gnss_ve")
+      float gnss_ve;
+
+      @verbatim (language="comment", text=
+        " gnss_vn")
+      float gnss_vn;
+
+      @verbatim (language="comment", text=
+        " gnss_vu")
+      float gnss_vu;
+
+      @verbatim (language="comment", text=
+        " gnss_ve精度")
+      float gnss_ve_sigma;
+
+      @verbatim (language="comment", text=
+        " gnss_vn精度")
+      float gnss_vn_sigma;
+
+      @verbatim (language="comment", text=
+        " gnss_vu精度")
+      float gnss_vu_sigma;
+
+      @verbatim (language="comment", text=
+        " RTKAge")
+      uint16 gnss_age;
+
+      @verbatim (language="comment", text=
+        " HDOP")
+      float gnss_hdop;
+
+      @verbatim (language="comment", text=
+        " VDOP")
+      float gnss_vdop;
+
+      @verbatim (language="comment", text=
+        " NumSV used")
+      uint8 gnss_mas_antusedsatnum;
+
+      @verbatim (language="comment", text=
+        " NumSV  Visible")
+      uint8 gnss_satnum;
+
+      @verbatim (language="comment", text=
+        " NumSV sn0>40db")
+      uint8 gnss_mas_anthighqualitysatnum;
+
+      @verbatim (language="comment", text=
+        " gnss_ Time")
+      uint64 gnss_time;
+
+      @verbatim (language="comment", text=
+        " gnss_ Trk")
+      float gnss_trk;
+
+      @verbatim (language="comment", text=
+        " gnss_ Status")
+      uint8 gnss_stat;
+
+      @verbatim (language="comment", text=
+        "ENU pos")
+      float pos_up;
+
+      float pos_east;
+
+      float pos_north;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_msg/msg/CmdMsg.msg
+// generated code does not contain a copyright notice
+
+
+module car_msg {
+  module msg {
+    struct CmdMsg {
+      @verbatim (language="comment", text=
+        " 速度         # -2000到2000")
+      int32 velocity;
+
+      @verbatim (language="comment", text=
+        "转向角        # -2000到2000")
+      int32 steering;
+
+      @verbatim (language="comment", text=
+        "刹车力度      # 0到2000")
+      int32 brake;
+
+      @verbatim (language="comment", text=
+        "挡位         # 0  1  2")
+      int32 gears;
+
+      @verbatim (language="comment", text=
+        "呼吸灯       # RGB  呼吸 常亮等")
+      string led;
+    };
+  };
+};

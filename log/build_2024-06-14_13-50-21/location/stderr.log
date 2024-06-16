@@ -1,0 +1,17 @@
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:[m[K In member function ‘[01m[Kvoid location::imu_topic_callback(imu_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:135:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  135 |     void imu_topic_callback([01;35m[Kconst imu_msgs::msg::Imu::SharedPtr msg[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:[m[K In member function ‘[01m[Kvoid location::gnss_topic_callback(imu_msgs::msg::Gnss_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:166:54:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KENUPoint[m[K’ and ‘[01m[Kvoid[m[K’)
+  166 |       WGS_TO_ENU(currentGps, referenceGps, currentEnu[01;31m[K)[m[K;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:15:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr ENUPoint& ENUPoint::operator=(const ENUPoint&)[m[K’
+   15 | struct [01;36m[KENUPoint[m[K {
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:15:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst ENUPoint&[m[K’
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:15:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr ENUPoint& ENUPoint::operator=(ENUPoint&&)[m[K’
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:15:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[KENUPoint&&[m[K’
+make[2]: *** [CMakeFiles/location_node.dir/build.make:63：CMakeFiles/location_node.dir/src/location_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/location_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,20 @@
+[0.762s] Invoking command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/cmd_car_cpp -- -j8 -l8
+[1.425s] Invoked command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/cmd_car_cpp -- -j8 -l8
+[1.516s] Invoking command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/cmd_car_cpp
+[1.549s] -- Install configuration: ""
+[1.549s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/ament_index/resource_index/package_run_dependencies/cmd_car_cpp
+[1.550s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/ament_index/resource_index/parent_prefix_path/cmd_car_cpp
+[1.550s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/environment/ament_prefix_path.sh
+[1.550s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/environment/ament_prefix_path.dsv
+[1.550s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/environment/path.sh
+[1.550s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/environment/path.dsv
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/local_setup.bash
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/local_setup.sh
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/local_setup.zsh
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/local_setup.dsv
+[1.551s] -- Installing: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.dsv
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/ament_index/resource_index/packages/cmd_car_cpp
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/cmake/cmd_car_cppConfig.cmake
+[1.551s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/cmake/cmd_car_cppConfig-version.cmake
+[1.552s] -- Up-to-date: /home/nvidia/GoalPlanning/install/cmd_car_cpp/share/cmd_car_cpp/package.xml
+[1.560s] Invoked command in '/home/nvidia/GoalPlanning/build/cmd_car_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/cmd_car_cpp

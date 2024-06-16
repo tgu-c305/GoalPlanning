@@ -1,0 +1,55 @@
+[0.121s] Invoking command in '/home/nvidia/GoalPlanning/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake /home/nvidia/GoalPlanning/src/location/src/serial -DCMAKE_INSTALL_PREFIX=/home/nvidia/GoalPlanning/install/serial
+[1.520s] -- The C compiler identification is GNU 9.4.0
+[1.521s] -- The CXX compiler identification is GNU 9.4.0
+[1.521s] -- Check for working C compiler: /usr/bin/cc
+[1.521s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.521s] -- Detecting C compiler ABI info
+[1.521s] -- Detecting C compiler ABI info - done
+[1.521s] -- Detecting C compile features
+[1.521s] -- Detecting C compile features - done
+[1.521s] -- Check for working CXX compiler: /usr/bin/c++
+[1.522s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.522s] -- Detecting CXX compiler ABI info
+[1.522s] -- Detecting CXX compiler ABI info - done
+[1.522s] -- Detecting CXX compile features
+[1.522s] -- Detecting CXX compile features - done
+[1.522s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.522s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.795s] -- Configuring done
+[1.838s] -- Generating done
+[1.852s] -- Build files have been written to: /home/nvidia/GoalPlanning/build/serial
+[1.873s] Invoked command in '/home/nvidia/GoalPlanning/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake /home/nvidia/GoalPlanning/src/location/src/serial -DCMAKE_INSTALL_PREFIX=/home/nvidia/GoalPlanning/install/serial
+[1.875s] Invoking command in '/home/nvidia/GoalPlanning/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/serial -- -j8 -l8
+[2.032s] [35m[1mScanning dependencies of target serial[0m
+[2.132s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.139s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.141s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[3.696s] [100%] [32m[1mLinking CXX shared library libserial.so[0m
+[3.901s] [100%] Built target serial
+[3.990s] Invoked command in '/home/nvidia/GoalPlanning/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/serial -- -j8 -l8
+[4.098s] Invoking command in '/home/nvidia/GoalPlanning/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/serial
+[4.132s] -- Install configuration: ""
+[4.132s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/library_path.sh
+[4.132s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/library_path.dsv
+[4.133s] -- Installing: /home/nvidia/GoalPlanning/install/serial/lib/libserial.so
+[4.134s] -- Installing: /home/nvidia/GoalPlanning/install/serial/include/serial/serial.h
+[4.135s] -- Installing: /home/nvidia/GoalPlanning/install/serial/include/serial/v8stdint.h
+[4.136s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.136s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.136s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.137s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.137s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/path.sh
+[4.137s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/environment/path.dsv
+[4.137s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/local_setup.bash
+[4.137s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/local_setup.sh
+[4.138s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/local_setup.zsh
+[4.138s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/local_setup.dsv
+[4.138s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/package.dsv
+[4.139s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/ament_index/resource_index/packages/serial
+[4.140s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.141s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.141s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/cmake/serialConfig.cmake
+[4.142s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.142s] -- Installing: /home/nvidia/GoalPlanning/install/serial/share/serial/package.xml
+[4.162s] Invoked command in '/home/nvidia/GoalPlanning/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/serial

@@ -1,0 +1,7 @@
+{
+  "package_name": "car_msg",
+  "non_idl_tuples": [
+    "/home/nvidia/GoalPlanning/src/car_msg:msg/CmdMsg.msg",
+    "/home/nvidia/GoalPlanning/src/car_msg:msg/CarState.msg"
+  ]
+}

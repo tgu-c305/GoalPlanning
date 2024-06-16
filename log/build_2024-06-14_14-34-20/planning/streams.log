@@ -1,0 +1,31 @@
+[2.350s] Invoking command in '/home/nvidia/GoalPlanning/src/planning': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/planning/prefix_override:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/planning build --build-base /home/nvidia/GoalPlanning/build/planning/build install --record /home/nvidia/GoalPlanning/build/planning/install.log --install-scripts $base/lib/planning --single-version-externally-managed install_data
+[2.847s] /home/nvidia/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.848s]   warnings.warn(
+[2.904s] running egg_info
+[2.904s] writing ../../build/planning/planning.egg-info/PKG-INFO
+[2.905s] writing dependency_links to ../../build/planning/planning.egg-info/dependency_links.txt
+[2.905s] writing entry points to ../../build/planning/planning.egg-info/entry_points.txt
+[2.906s] writing requirements to ../../build/planning/planning.egg-info/requires.txt
+[2.906s] writing top-level names to ../../build/planning/planning.egg-info/top_level.txt
+[2.912s] reading manifest file '../../build/planning/planning.egg-info/SOURCES.txt'
+[2.914s] writing manifest file '../../build/planning/planning.egg-info/SOURCES.txt'
+[2.914s] running build
+[2.914s] running build_py
+[2.914s] copying planning/info_pub.py -> /home/nvidia/GoalPlanning/build/planning/build/lib/planning
+[2.915s] running install
+[2.916s] running install_lib
+[2.918s] copying /home/nvidia/GoalPlanning/build/planning/build/lib/planning/info_pub.py -> /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning
+[2.920s] byte-compiling /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning/info_pub.py to info_pub.cpython-38.pyc
+[2.921s]   File "/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning/info_pub.py", line 84
+[2.921s]     if (PurDistdiff < 3){
+[2.921s]                         ^
+[2.922s] SyntaxError: invalid syntax
+[2.922s] 
+[2.922s] running install_data
+[2.922s] running install_egg_info
+[2.924s] removing '/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning-0.0.0-py3.8.egg-info' (and everything under it)
+[2.925s] Copying ../../build/planning/planning.egg-info to /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning-0.0.0-py3.8.egg-info
+[2.927s] running install_scripts
+[2.965s] Installing planning_node script to /home/nvidia/GoalPlanning/install/planning/lib/planning
+[2.966s] writing list of installed files to '/home/nvidia/GoalPlanning/build/planning/install.log'
+[3.034s] Invoked command in '/home/nvidia/GoalPlanning/src/planning' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/planning/prefix_override:/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/planning build --build-base /home/nvidia/GoalPlanning/build/planning/build install --record /home/nvidia/GoalPlanning/build/planning/install.log --install-scripts $base/lib/planning --single-version-externally-managed install_data

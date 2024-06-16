@@ -1,0 +1,20 @@
+[2.347s] Invoking command in '/home/nvidia/GoalPlanning/src/cmd_car': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data
+[2.907s] running egg_info
+[2.908s] writing ../../build/cmd_car/cmd_car.egg-info/PKG-INFO
+[2.909s] writing dependency_links to ../../build/cmd_car/cmd_car.egg-info/dependency_links.txt
+[2.909s] writing entry points to ../../build/cmd_car/cmd_car.egg-info/entry_points.txt
+[2.909s] writing requirements to ../../build/cmd_car/cmd_car.egg-info/requires.txt
+[2.909s] writing top-level names to ../../build/cmd_car/cmd_car.egg-info/top_level.txt
+[2.915s] reading manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+[2.916s] writing manifest file '../../build/cmd_car/cmd_car.egg-info/SOURCES.txt'
+[2.916s] running build
+[2.917s] running build_py
+[2.917s] running install
+[2.918s] running install_lib
+[2.921s] running install_data
+[2.921s] running install_egg_info
+[2.925s] removing '/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info' (and everything under it)
+[2.926s] Copying ../../build/cmd_car/cmd_car.egg-info to /home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages/cmd_car-0.0.0-py3.8.egg-info
+[2.928s] running install_scripts
+[2.965s] writing list of installed files to '/home/nvidia/GoalPlanning/build/cmd_car/install.log'
+[3.022s] Invoked command in '/home/nvidia/GoalPlanning/src/cmd_car' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/nvidia/GoalPlanning/build/cmd_car/prefix_override:/home/nvidia/GoalPlanning/install/cmd_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cmd_car build --build-base /home/nvidia/GoalPlanning/build/cmd_car/build install --record /home/nvidia/GoalPlanning/build/cmd_car/install.log --single-version-externally-managed install_data

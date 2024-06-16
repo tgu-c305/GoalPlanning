@@ -1,0 +1,11 @@
+{
+  "package_name": "imu_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/ASENSING.msg",
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/Imu.msg",
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/Gnss.msg",
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/AG041.msg",
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/AG051.msg",
+    "/home/nvidia/GoalPlanning/src/location/src/imu_msgs:msg/AG072.msg"
+  ]
+}

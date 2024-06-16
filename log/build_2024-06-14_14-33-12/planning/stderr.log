@@ -1,0 +1,7 @@
+/home/nvidia/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+  File "/home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning/info_pub.py", line 81
+    PurDistdiff = abs(CurrentEastPos - GlobalENUPurSuitPoint[PurSuitPtr][0]) +
+                                                                             ^
+SyntaxError: invalid syntax
+

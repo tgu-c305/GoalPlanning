@@ -1,0 +1,135 @@
+[0.102s] Invoking command in '/home/nvidia/GoalPlanning/build/car_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/car_msg -- -j8 -l8
+[1.434s] [ 10%] Built target car_msg__rosidl_generator_c
+[1.434s] [ 12%] Built target car_msg__cpp
+[1.434s] [ 23%] Built target car_msg__rosidl_typesupport_c
+[1.435s] [ 33%] Built target car_msg__rosidl_typesupport_introspection_c
+[1.435s] [ 43%] Built target car_msg__rosidl_typesupport_introspection_cpp
+[1.435s] [ 53%] Built target car_msg__rosidl_typesupport_fastrtps_cpp
+[1.435s] [ 64%] Built target car_msg__rosidl_typesupport_cpp
+[1.435s] [ 74%] Built target car_msg__rosidl_typesupport_fastrtps_c
+[1.435s] [ 74%] Built target car_msg
+[1.435s] [ 76%] Built target car_msg__py
+[1.435s] [ 84%] Built target car_msg__python
+[1.436s] [ 89%] Built target car_msg__rosidl_typesupport_c__pyext
+[1.436s] [ 94%] Built target car_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.436s] [100%] Built target car_msg__rosidl_typesupport_introspection_c__pyext
+[1.446s] Invoked command in '/home/nvidia/GoalPlanning/build/car_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/car_msg -- -j8 -l8
+[1.644s] Invoking command in '/home/nvidia/GoalPlanning/build/car_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/car_msg
+[1.669s] -- Install configuration: ""
+[1.669s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/ament_index/resource_index/rosidl_interfaces/car_msg
+[1.669s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.669s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__functions.c
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__functions.h
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__type_support.h
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__struct.h
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__type_support.h
+[1.670s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__functions.h
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__struct.h
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__functions.c
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/rosidl_generator_c__visibility_control.h
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/cmd_msg.h
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/car_state.h
+[1.671s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/library_path.sh
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/library_path.dsv
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_generator_c.so
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.672s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__rosidl_typesupport_fastrtps_c.h
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__rosidl_typesupport_fastrtps_c.h
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_fastrtps_c.so
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.673s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/dds_fastrtps
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.674s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__type_support.c
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__rosidl_typesupport_introspection_c.h
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__type_support.c
+[1.675s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__rosidl_typesupport_introspection_c.h
+[1.676s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.676s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_introspection_c.so
+[1.677s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_c.so
+[1.677s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.677s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.677s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.677s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__type_support.hpp
+[1.678s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__builder.hpp
+[1.678s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__struct.hpp
+[1.678s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__type_support.hpp
+[1.678s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__traits.hpp
+[1.678s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__traits.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__struct.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__builder.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/car_state.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/cmd_msg.hpp
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg
+[1.679s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/cmd_msg__type_support.cpp
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__rosidl_typesupport_introspection_cpp.hpp
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/include/car_msg/msg/detail/car_state__type_support.cpp
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_introspection_cpp.so
+[1.680s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__rosidl_typesupport_cpp.so
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/pythonpath.sh
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/pythonpath.dsv
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/__init__.py
+[1.764s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg
+[1.765s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg/_cmd_msg_s.c
+[1.766s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg/__init__.py
+[1.767s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg/_car_state.py
+[1.767s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg/_cmd_msg.py
+[1.767s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/msg/_car_state_s.c
+[1.768s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/car_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.768s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/car_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.768s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/python3.8/site-packages/car_msg/car_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.768s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/lib/libcar_msg__python.so
+[1.768s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/msg/CmdMsg.idl
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/msg/CarState.idl
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/msg/CmdMsg.msg
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/msg/CarState.msg
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/ament_index/resource_index/package_run_dependencies/car_msg
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/ament_index/resource_index/parent_prefix_path/car_msg
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/ament_prefix_path.sh
+[1.769s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/ament_prefix_path.dsv
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/path.sh
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/environment/path.dsv
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/local_setup.bash
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/local_setup.sh
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/local_setup.zsh
+[1.770s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/local_setup.dsv
+[1.770s] -- Installing: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.dsv
+[1.771s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/ament_index/resource_index/packages/car_msg
+[1.771s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_generator_cExport.cmake
+[1.771s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_generator_cExport-noconfig.cmake
+[1.771s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.771s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.772s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_cExport.cmake
+[1.772s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.773s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_generator_cppExport.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_cppExport.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/rosidl_cmake-extras.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msgConfig.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/cmake/car_msgConfig-version.cmake
+[1.775s] -- Up-to-date: /home/nvidia/GoalPlanning/install/car_msg/share/car_msg/package.xml
+[1.790s] Invoked command in '/home/nvidia/GoalPlanning/build/car_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/car_msg

@@ -1,0 +1,3 @@
+[console_scripts]
+planning_node = planning.info_pub:main
+

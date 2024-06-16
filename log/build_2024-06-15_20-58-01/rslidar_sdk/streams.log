@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_sdk -- -j8 -l8
+[0.164s] [100%] Built target rslidar_sdk_node
+[0.190s] Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_sdk -- -j8 -l8
+[0.283s] Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_sdk
+[0.307s] -- Install configuration: "Release"
+[0.308s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[0.309s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/launch
+[0.309s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[0.309s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/rviz
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[0.310s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[0.313s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[0.315s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[0.315s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[0.316s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[0.317s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[0.318s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[0.319s] -- Installing: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[0.320s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[0.320s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[0.320s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[0.320s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[0.340s] Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib:/usr/local/cuda-11.4/lib64:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_sdk

@@ -1,0 +1,37 @@
+/home/nvidia/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/planning/planning.egg-info
+writing ../../build/planning/planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/planning/planning.egg-info/dependency_links.txt
+writing entry points to ../../build/planning/planning.egg-info/entry_points.txt
+writing requirements to ../../build/planning/planning.egg-info/requires.txt
+writing top-level names to ../../build/planning/planning.egg-info/top_level.txt
+writing manifest file '../../build/planning/planning.egg-info/SOURCES.txt'
+reading manifest file '../../build/planning/planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/planning/planning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nvidia/GoalPlanning/build/planning/build
+creating /home/nvidia/GoalPlanning/build/planning/build/lib
+creating /home/nvidia/GoalPlanning/build/planning/build/lib/planning
+copying planning/__init__.py -> /home/nvidia/GoalPlanning/build/planning/build/lib/planning
+copying planning/info_pub.py -> /home/nvidia/GoalPlanning/build/planning/build/lib/planning
+running install
+running install_lib
+creating /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning
+copying /home/nvidia/GoalPlanning/build/planning/build/lib/planning/__init__.py -> /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning
+copying /home/nvidia/GoalPlanning/build/planning/build/lib/planning/info_pub.py -> /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning
+byte-compiling /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning/info_pub.py to info_pub.cpython-38.pyc
+running install_data
+creating /home/nvidia/GoalPlanning/install/planning/share/ament_index
+creating /home/nvidia/GoalPlanning/install/planning/share/ament_index/resource_index
+creating /home/nvidia/GoalPlanning/install/planning/share/ament_index/resource_index/packages
+copying resource/planning -> /home/nvidia/GoalPlanning/install/planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/nvidia/GoalPlanning/install/planning/share/planning
+running install_egg_info
+Copying ../../build/planning/planning.egg-info to /home/nvidia/GoalPlanning/install/planning/lib/python3.8/site-packages/planning-0.0.0-py3.8.egg-info
+running install_scripts
+Installing planning_node script to /home/nvidia/GoalPlanning/install/planning/lib/planning
+writing list of installed files to '/home/nvidia/GoalPlanning/build/planning/install.log'

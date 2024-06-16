@@ -1,0 +1,4 @@
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:[m[K In member function ‘[01m[Kvoid location::imu_topic_callback(imu_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/GoalPlanning/src/location/src/location/src/location_node.cpp:76:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   76 |     void imu_topic_callback([01;35m[Kconst imu_msgs::msg::Imu::SharedPtr msg[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

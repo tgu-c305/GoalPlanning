@@ -1,0 +1,115 @@
+[0.119s] Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_msg -- -j8 -l8
+[1.481s] [  3%] Built target rslidar_msg__cpp
+[1.482s] [ 12%] Built target rslidar_msg__rosidl_generator_c
+[1.484s] [ 22%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[1.485s] [ 32%] Built target rslidar_msg__rosidl_typesupport_cpp
+[1.486s] [ 41%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[1.487s] [ 51%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[1.487s] [ 61%] Built target rslidar_msg__rosidl_typesupport_c
+[1.488s] [ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[1.488s] [ 70%] Built target rslidar_msg
+[1.492s] [ 74%] Built target rslidar_msg__py
+[1.492s] [ 80%] Built target rslidar_msg__python
+[1.492s] [ 93%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[1.493s] [ 93%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.493s] [100%] Built target rslidar_msg__rosidl_typesupport_c__pyext
+[1.514s] Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/GoalPlanning/build/rslidar_msg -- -j8 -l8
+[1.636s] Invoking command in '/home/nvidia/GoalPlanning/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_msg
+[1.681s] -- Install configuration: ""
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.681s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.c
+[1.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.h
+[1.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.h
+[1.682s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.h
+[1.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_c__visibility_control.h
+[1.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.h
+[1.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh
+[1.683s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv
+[1.684s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so
+[1.686s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.687s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.688s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.688s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h
+[1.688s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.689s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so
+[1.690s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.690s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.690s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.690s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.691s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/dds_fastrtps
+[1.691s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.691s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.691s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.c
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so
+[1.692s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.hpp
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__builder.hpp
+[1.693s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__traits.hpp
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.hpp
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp
+[1.694s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.695s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so
+[1.695s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so
+[1.695s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh
+[1.695s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv
+[1.695s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/__init__.py
+[1.774s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg
+[1.777s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/__init__.py
+[1.777s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/_rslidar_packet.py
+[1.777s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/_rslidar_packet_s.c
+[1.778s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.779s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.780s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.808s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/lib/librslidar_msg__python.so
+[1.810s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl
+[1.810s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg
+[1.810s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg
+[1.811s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg
+[1.811s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh
+[1.811s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv
+[1.812s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/path.sh
+[1.812s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/environment/path.dsv
+[1.812s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/local_setup.bash
+[1.813s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/local_setup.sh
+[1.813s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/local_setup.zsh
+[1.814s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/local_setup.dsv
+[1.823s] -- Installing: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.dsv
+[1.826s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg
+[1.827s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport.cmake
+[1.828s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport-noconfig.cmake
+[1.828s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.828s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.828s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake
+[1.828s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.829s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cppExport.cmake
+[1.829s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.829s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.830s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.831s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.831s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.831s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake
+[1.831s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake
+[1.831s] -- Up-to-date: /home/nvidia/GoalPlanning/install/rslidar_msg/share/rslidar_msg/package.xml
+[1.838s] Invoked command in '/home/nvidia/GoalPlanning/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/GoalPlanning/install/planning:/home/nvidia/GoalPlanning/install/cmd_car:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/nvidia/GoalPlanning/build/rslidar_msg
